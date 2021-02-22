@@ -163,7 +163,7 @@ def closeBox():
 # Runs the motor from pin 1 
 def closeBoxW():
     pin1.set_analog_period(20)
-    pin1.write_analog(178)
+    pin1.write_analog(60)
     sleep(10000)
     pin1.write_analog(1)
     music.play(winTune)
