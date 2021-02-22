@@ -188,7 +188,7 @@ if __name__ == "__main__":
     display.show(mainImage)
     pin1.write_analog(1)
     
-    while count < len(rounds) - 1:
+    while count < len(rounds):
         print("Beginning Round: " + str(count))
         rounds[count]()
         count += 1
